@@ -1,0 +1,52 @@
+body{
+    box-sizing: border-box;
+    font-size: 40px;
+    font-family: 'Helvetica' ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid #ccc;
+}
+.fila{
+    display: flex;
+    border: 1px solid #ccc;
+    justify-content: space-between;
+}
+.display{
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+    border: 2px solid white;
+}
+.boton{  
+    border: 2px solid white;
+    background-color:#ccc;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.entre, .por, .menos, .mas, .igual{
+    background-color: #D5863C;
+    color: white;
+}
+.boton:hover{
+    background-color:#fff;
+}
+ .entre:hover, .por:hover, .menos:hover, .mas:hover, .igual:hover{
+    
+        background-color: #b87334;
+    
+} 
+.boton:active{
+    background-color: rgb(133, 127, 127);
+}
+.borrar {
+    width: 200%;
+}
+.igual{
+    width: 33%;
+}
